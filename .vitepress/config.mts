@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "TechABC",
   description: "A wiki for tech beginners.",
+  cleanUrls : true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
